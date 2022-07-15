@@ -1,0 +1,95 @@
+h1 {
+    text-align: center;
+    border: 1px solid black;
+    background-color: coral;
+}
+
+#textoCarta {
+    margin-left: 8px;
+    width: 700px;
+    padding: 5px;   
+}
+
+#button {
+    background-color: coral;
+    font-weight: 900;
+    border-radius: 50%;
+    padding: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#contador {
+    margin-top: 50px;
+    margin-left: 15px;
+    font-size: xx-large;    
+    
+}
+
+#cartaEscrita {
+    margin-top: 200px;
+    margin-left: 20px;
+    font-size: 30px;
+    
+}
+
+.newPaper {
+    background-color: rgb(150, 212, 212);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+}
+
+.style1 {
+    background-color: blanchedalmond;
+    color: rgb(94, 94, 94);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.style2 {
+    background-color: fuchsia;
+    color: salmon;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+}
+
+.textoMedio {
+    font-size: 20px;
+    padding: 10px;
+}
+ 
+.textoBig {
+    font-size: 30px;
+    padding: 15px;
+    background-color: brown;
+}
+
+.bigBig {
+    background-color: mediumslateblue;
+    font-size: 50px;
+    padding: 25px;
+}
+
+.rotateLeft {
+    background-color: yellow;
+    color: brown;
+    transform: rotate(-5deg);
+}
+
+.rotateRight {
+    background-color: yellowgreen;
+    font-style: italic;
+    transform: rotate(5deg);
+}
+
+.skew {
+    background-color: black;
+    color: aliceblue;
+    transform: skewX(15deg);
+}
+
+.skew2 {
+    background-color: aquamarine;
+    transform: skewX(-15deg);
+}
