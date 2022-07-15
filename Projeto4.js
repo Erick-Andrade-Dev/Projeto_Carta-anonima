@@ -32,7 +32,8 @@ function carta(){
             selectP.innerText = 'Digite seu texto!'
         } else {
             selectP.innerText='';
-            const input = selectInput.value
+            let input = selectInput.value
+            input = input.replace(/^\s+|\s+$/g, '');
             const split = input.split(' ')
             const p = document.querySelector('#contador')
             p.innerText = split.length
